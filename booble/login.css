@@ -1,0 +1,19 @@
+.container{
+  width: -50%;
+  height: auto;
+  background-color: grey;
+  border-color: green;
+  position: relative  top: 50%   right: 50%;
+}
+
+#Booble{
+  color: green;
+  font-family: fantasy;
+  font-size: 60px;
+}
+
+#singin{
+  color: white;
+  font-family: fantasy;
+  font-size: 30px;
+}

@@ -1,0 +1,59 @@
+#header{
+  width: auto;
+  height: 15px;
+  border-color: purple;
+}
+
+#mail{
+  font-style: bold;
+  font-family: fantasy;
+  float: right;
+}
+
+#login{
+  font-style: bold;
+  font-family: fantasy;
+  float: left;
+  }
+
+#booble{
+  color: green;
+  font-family: fantasy;
+  font-size: 60px;
+}
+
+#search{
+  width: auto;
+  height: auto;
+}
+h3{
+  display: inline;
+  color: black;
+  font-size: 15px;
+}
+
+h4{
+  display: inline;
+  color: blue;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+
+#footer{
+  width: auto;
+  height: 30px;
+}
+#country{
+  width: auto;
+  height: 15px;
+  border-color: grey;
+  position: absolute;
+}
+
+#address{
+  width: auto;
+  height: 15px;
+  border-color: grey;
+  float: right;
+}
