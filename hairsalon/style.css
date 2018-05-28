@@ -1,0 +1,50 @@
+.services{
+  text-align: center;
+  font: bold;
+}
+
+.appointment{
+  text-align: center;
+  font: bold;
+}
+
+.modal-body{
+  text-align: justify;
+}
+
+.table{
+  font-size: 15px;
+}
+
+thead{
+  font-size: 20px;
+}
+
+.contact{
+  width: 250px;
+  height: 180px;
+  position: absolute;
+  left: auto;
+}
+
+.imgfooter{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  right: -500px;
+  top: 50px;
+}
+
+.linkfooter{
+  align-content: inline
+  width: 250px;
+  height: 180px;
+  position: relative;
+  right: -900px;
+  top: -200px;
+}
+
+footer{
+  background-color: aliceblue;
+  height: 200px;
+  }
