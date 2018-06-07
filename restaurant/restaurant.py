@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 print "Welcome to the daily Restaurant menu program."
 
 menu_dict = {}
