@@ -31,8 +31,12 @@ while True:
     if final.lower() == "yes":
         menu_file = open ("menu.txt", "w+")
 
-        print "Your menu is: %s" % menu_dict
-        menu_file.write("Your menu is: %s \n" %menu_dict)
+        print "Your menu is:"
+        menu_file.write("Your menu is:\n")
+        for key, value in menu_dict.items():
+            print "- " + key + "," + value
+            menu_file.write("- "+ key + "," + value + "\n")
+
 
         menu_file.close()
 
