@@ -3,7 +3,7 @@
 
 import random
 
-def generate_lottery_numbers(quantity):
+def lottery_numbers(quantity):
 
     num_list = []
 
@@ -22,12 +22,12 @@ def main():
 
     print "Welcome to the Lottery numbers generator."
 
-    quantity_question = raw_input("Please enter how many numbers would you like to have: ")
+    question = raw_input("Please enter how many numbers would you like to have: ")
 
     try:
-        quantity = int(quantity_question)
+        quantity = int(question)
 
-        print generate_lottery_numbers(quantity)
+        print lottery_numbers(quantity)
 
     except ValueError:
 
