@@ -76,6 +76,7 @@ def main():
         selection = raw_input("Enter your selection (a, b, c, or d): ")
         print ""
 
+
         if selection.lower() == "a":
             list_all(vehicles)
         elif selection.lower() == "b":
@@ -102,10 +103,10 @@ if __name__ == "__main__":
     main()
 
 
-
-"""menu = [list_all(vehicles), add(vehicles), edit(vehicles)]
-    for items in menu:
-        if 
+"""menu = {"a": "list_all", "b": "add", "c": "edit"}
+for key, value in menu.iteritems():
+        if selection.lower() == key in menu.iteritems():
+            value.menu()
         else selection.lower() == "d":
             print ("=" * 100)
             print "Thank you to use our service"
