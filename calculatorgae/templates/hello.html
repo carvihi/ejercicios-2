@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+
+   </head>
+<body>
+    <h1>Calculadora de Carmen</h1>
+
+    <form method="post" action="/">
+        <input name="number_one">
+        <input name="number_two">
+        <input name="operation" size="5">
+
+        <button type="submit">Calcula</button>
+    </form>
+
+{% if result %}
+    <div>
+        <h3>El resultado es: {{result}}</h3>
+    </div>
+{% endif %}
+</body>
+</html>
